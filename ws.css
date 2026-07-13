@@ -1,0 +1,160 @@
+:root{
+  --most-color: rgba(255, 255, 255, 0); //#00FF00
+}
+:root{
+ --fsize: clamp(1rem, 2.5vw, 2rem);
+}
+:root{
+  --maxwidth: 100vw;
+}
+
+<style>
+
+/*link tags*/
+a{
+	transition: .1s;
+	color: blue;
+}
+a:hover{
+	background-color: gray;
+}
+
+
+summary {
+  font-size: var(--fsize);
+  font-weight: bold;
+  border: 1px solid;
+  padding: 0.5vw;
+  outline: none;
+  text-align: left;
+  width: 89vw;
+  margin-left: -15vw;
+  margin-bottom: 0vw;
+  margin-top: 15px;
+  background: --most-color;
+  color: black;
+  //text-shadow: 1px 1px 2px gray;
+  box-shadow: 2px 2px 2px gray;
+  position: relative;
+  cursor: pointer;
+  &:focus {
+    border-color: black;
+    background-color: lightgray;
+  }
+}
+summary:hover {
+	background-color: lightgray;
+}
+
+
+
+details {
+  font-size: var(--fsize);
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 1vw;
+  margin-left: 20vw;
+  max-width: 60vw;
+  text-align: left;
+  color: black;
+  background: var(--most-color);
+}
+
+details[open] > summary:before {
+  transform: rotate(90deg);
+}
+
+
+
+.content {
+  border-top: none;
+  padding: 1.5vw;
+  border: 2px solid darkred;
+  border-top: 0px;
+  box-shadow: 2px 2px 2px gray;
+  width: 87vw;
+  text-align: center;
+  margin-left: -15vw;
+  margin-top: 0vw;
+}
+
+.my-button {
+  margin-top: 10px;
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: darkred;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: sans-serif;
+  visibility: initial;
+  font-size: var(--fsize);
+
+}
+.my-button:hover {
+  background-color: red;
+}
+
+select {
+    appearance: base-select; /* Enables customization */
+    font-size: var(--fsize);        /* Sets font size */
+    padding: 0px;           /* Adds padding */
+    border: 1px solid #ccc; /* Sets border */
+    border-radius: 4px;     /* Rounds corners */
+}
+
+.mySlides {
+  //border-radius: 12px;
+  height: clamp(150px, 35vw, 260px);
+  margin-left: auto;
+  margin-right: auto;
+  //box-shadow: -3px 0px 5px black;
+}
+
+/*animations classes*/
+
+details[open] > *:not(summary) {
+  animation: details-show 300ms ease-in-out;
+}
+@keyframes details-show {
+  from {
+    opacity:0;
+    transform: var(--details-translate, translateY(-0.5em));
+  }
+}
+
+.logoimg {
+  animation-name: logoAnimation;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+@keyframes logoAnimation {
+  from {margin-left: 100vw;}
+  to {margin-left: 5vw;}
+}
+
+.fadeIn {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+.fadeIn2 {
+  opacity: 0;
+  animation-name: fadeIn;
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+
+
+</style>
