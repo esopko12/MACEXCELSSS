@@ -8,7 +8,16 @@
 </head>
 
 <body style="background: white; margin: 0; font-family: sans-serif; font-color: black"
-
+	
+<script>
+  // Executes once the DOM structure and all assets are fully evaluated
+  window.addEventListener('load', function() {
+    setTimeout(function() {
+      window.scrollTo(0, 0);
+    }, 0); // A 0ms timeout pushes the execution to the end of the browser queue
+  });
+</script>
+	
 <!Slideshow--------------------------------------------------------------------------------------->
 <div style="display: flex; background: linear-gradient(darkred, red); margin-bottom: 0px; height: clamp(125px, 35vw, 260px)">
 	<img id="ssslogo" class="logoimg" src="images/logo.png" style="margin-left: 5vw; height: clamp(125px, 35vw, 260px">
