@@ -69,7 +69,7 @@ details[open] > summary:before {
 .content {
   border-top: none;
   padding: 1.5vw;
-  border: 2px solid darkred;
+  border: 2px solid #BB0000;
   border-top: 0px;
   box-shadow: 2px 2px 2px gray;
   width: 87vw;
@@ -83,7 +83,7 @@ details[open] > summary:before {
   margin-top: 10px;
   display: inline-block;
   padding: 5px 10px;
-  background-color: darkred;
+  background-color: #BB0000;
   color: white;
   text-decoration: none;
   border-radius: 5px;
