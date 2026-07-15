@@ -57,7 +57,7 @@ details[open] summary{
   color: white;
   background-color: var(--accent-color);
   border-color: var(--accent-color);
-  box-shadow: 0px 0px 0px white;
+  box-shadow: 2px 0px 2px gray;
 }
 
 
