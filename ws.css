@@ -49,6 +49,7 @@ summary:hover {
 details{
   width: 90.3vw;
   margin-left: 5vw;
+  border-color: black;
 }
 details[open] > summary:before {
   transform: rotate(90deg);
