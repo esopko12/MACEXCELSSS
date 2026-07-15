@@ -29,7 +29,7 @@ summary {
   border: 2px solid;
   padding: 0.5vw;
   text-align: left;
-  width: 90vw;
+  width: 89vw;
   margin-bottom: 0vw;
   margin-top: 15px;
   background: --most-color;
@@ -47,7 +47,7 @@ summary:hover {
 
 
 details{
-  width: 90vw;
+  width: 89vw;
   margin-left: 5vw;
 }
 details[open] > summary:before {
@@ -56,8 +56,8 @@ details[open] > summary:before {
 details[open] summary{
   color: white;
   border: 3px solid var(--accent-color);
-  //border-color: var(--accent-color);
   box-shadow: 2px 0px 2px gray;
+  background-color: var(--accent-color);
 }
 
 
@@ -68,7 +68,7 @@ details[open] summary{
   border: 3px solid var(--accent-color);
   border-top: 0px;
   box-shadow: 2px 2px 2px gray;
-  width: 87.8vw;
+  width: 87vw;
   text-align: center;
   margin-top: 0vw;
   //background-color: #E9ECEF;
