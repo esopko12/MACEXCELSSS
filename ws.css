@@ -10,7 +10,6 @@
 
 <style>
 
-/*link tags*/
 a{
 	transition: .1s;
 	color: blue;
@@ -39,7 +38,7 @@ summary {
   cursor: pointer;
   &:focus {
     border-color: black;
-    //background-color: lightgray;
+    background-color: lightgray;
   }
 }
 summary:hover {
@@ -96,11 +95,11 @@ details[open] > summary:before {
 }
 
 select {
-    appearance: base-select; /* Enables customization */
-    font-size: var(--fsize);        /* Sets font size */
-    padding: 0px;           /* Adds padding */
-    border: 1px solid #ccc; /* Sets border */
-    border-radius: 4px;     /* Rounds corners */
+    appearance: base-select;
+    font-size: var(--fsize);
+    padding: 0px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 .mySlides {
