@@ -56,7 +56,6 @@ details {
   max-width: 60vw;
   text-align: left;
   color: black;
-  background-color: lightgray;
 }
 
 details[open] > summary:before {
@@ -75,6 +74,7 @@ details[open] > summary:before {
   text-align: center;
   margin-left: -15vw;
   margin-top: 0vw;
+  background-color: lightgray;
 }
 
 .my-button {
