@@ -56,7 +56,7 @@ details {
   max-width: 60vw;
   text-align: left;
   color: black;
-  background: lightgray;
+  background-color: lightgray;
 }
 
 details[open] > summary:before {
