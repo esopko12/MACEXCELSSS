@@ -56,7 +56,6 @@ details[open] > summary:before {
 details[open] summary{
   color: white;
   border: 3px solid var(--accent-color);
-  box-shadow: 2px 0px 2px gray;
   background-color: var(--accent-color);
 }
 
