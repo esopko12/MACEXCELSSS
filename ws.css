@@ -32,17 +32,19 @@ summary {
   margin-top: 15px;
   background: --most-color;
   color: black;
-  //text-shadow: 1px 1px 2px gray;
+  //text-shadow: 2px 0px 0px white;
   box-shadow: 2px 2px 2px gray;
   position: relative;
   cursor: pointer;
   &:focus {
     border-color: black;
-    background-color: lightgray;
+    background-color: #BB0000;
+    color: white;
   }
 }
 summary:hover {
 	background-color: lightgray;
+    color: black;
 }
 
 
@@ -74,7 +76,7 @@ details[open] > summary:before {
   text-align: center;
   margin-left: -15vw;
   margin-top: 0vw;
-  background-color: lightgray;
+  background-color: #E9ECEF;
 }
 
 .my-button {
