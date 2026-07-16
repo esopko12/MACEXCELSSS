@@ -59,7 +59,7 @@
 			<button onclick="appdcalappear()" class="my-button">Schedule with Dane Korenak</button><br>
 		</div>
 
-		<iframe id="appcalendar" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1250px; frameborder: 0; background-color: white; display: none"></iframe>
+		<iframe id="appcalendar" src="" scrolling="no" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0; background-color: white; display: none"></iframe>
 
 		<p><strong>or</strong></p>
 		<div style="color: black">drop in anytime on the 2nd floor of the library!</div>
@@ -107,14 +107,16 @@
 	<label for="tutor" style="margin-left: 2vw; color: black">Select tutor to see availability:</label>
 	<select id="tutor" onchange="updateLink()">
 	</select>
+	<br>
 
 	<!--currently unused-->
-	<div id = "aboutTutor" style="margin-left: 2vw"></div>
-	<a id="dynamicLink" href="" target="_blank" class="my-button" style="margin-left: 2vw; visibility: hidden">Open Calendar in New Tab</a>
+	<div id = "aboutTutor" style="margin-left: 2vw; display: none"></div>
+	<a id="dynamicLink" href="" target="_blank" class="my-button" style="margin-left: 2vw; display: none">Open Calendar in New Tab</a>
 	<!---->
-	<div id="prompt" style="color: var(--accent-color); margin-left: 0vw; visibility: hidden">Please select an available time below: (if your desired time isn't available, try another tutor)</div>
+	<div id="prompt" style="margin-top: 1vw; color: var(--accent-color); display: none">Please select an available time below: (if your desired time isn't available, try another tutor)</div>
 
-	<iframe id="dynamicEmbed" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1250px; frameborder: 0; background-color: white"></iframe>
+	<iframe id="dynamicEmbed" src="" scrolling="no" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0; background-color: white; display: none"></iframe>
+
 
 </div>
 </details>
@@ -140,7 +142,7 @@
 			<button onclick="rcalappear()" class="my-button">Schedule with Rachel Neumeier</button><br>
 		</div>  
 
-		<iframe id="testprepcalendar" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1250px; frameborder: 0;
+		<iframe id="testprepcalendar" scrolling="no" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0;
   background-color: white; display: none"></iframe>
 
 	</div>
@@ -160,7 +162,7 @@
 			<button onclick="dcalappear()" class="my-button">Schedule with Dane Korenak</button><br>
 		</div>
 
-		<iframe id="calendar" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1250px; frameborder: 0; background-color: white; display: none"></iframe>
+		<iframe id="calendar" scrolling="no" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0; background-color: white; display: none"></iframe>
 
 	</div>
     </details>
