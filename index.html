@@ -8,11 +8,11 @@
 	<script src="script.js" defer></script>
 </head>
 
-<body style="background: rgba(255,255,255,0); margin: 0; font-family: sans-serif; font-color: black"
+<body style="background: rgba(255,255,255,0); margin: 0; font-family: sans-serif; color: black"
 	
 <!Slideshow--------------------------------------------------------------------------------------->
 <div style="display: flex; background: linear-gradient(darkred, red); margin-bottom: 0px; height: clamp(125px, 35vw, 260px)">
-	<img id="ssslogo" class="logoimg" src="images/logo.png" style="margin-left: 5vw; height: clamp(125px, 35vw, 260px">
+	<img id="ssslogo" class="logoimg" src="images/logo.png" style="margin-left: 5vw; height: clamp(125px, 35vw, 260px)">
     <img class="mySlides fadeIn" src="images/Bolduc.jpg">
     <img class="mySlides fadeIn" src="images/French.jpg">
     <img class="mySlides fadeIn" src="images/Fox.jpg">
@@ -59,7 +59,7 @@
 			<button onclick="appdcalappear()" class="my-button">Schedule with Dane Korenak</button><br>
 		</div>
 
-		<iframe id="appcalendar" src="" scrolling="no" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0; background-color: white; display: none"></iframe>
+		<iframe id="appcalendar" src="" scrolling="no" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; border: none; background-color: white; display: none"></iframe>
 
 		<p><strong>or</strong></p>
 		<div style="color: black">drop in anytime on the 2nd floor of the library!</div>
@@ -104,7 +104,7 @@
 	<p class="fadeIn" id = "aboutSubject" style ='color: black; margin-left: auto; margin-right: auto; width: 80vw; max-width: 100vw; text-align: left'></p>
 
 	<!Tutor Select Dropdown>
-	<label for="tutor" style="margin-left: 2vw; color: black">Select tutor to see availability:</label>
+	<label for="tutor" style="margin-left: 2vw; color: black">Select a tutor to see their availability:</label>
 	<select id="tutor" onchange="updateLink()">
 	</select>
 	<br>
@@ -113,9 +113,9 @@
 	<div id = "aboutTutor" style="margin-left: 2vw; display: none"></div>
 	<a id="dynamicLink" href="" target="_blank" class="my-button" style="margin-left: 2vw; display: none">Open Calendar in New Tab</a>
 	<!---->
-	<div id="prompt" style="margin-top: 1vw; color: var(--accent-color); display: none">Please select an available time below: (if your desired time isn't available, try another tutor)</div>
+	<div id="prompt" style="margin-top: 1vw; color: var(--accent-color); display: none">Please select a time below:</div>
 
-	<iframe id="dynamicEmbed" src="" scrolling="no" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0; background-color: white; display: none"></iframe>
+	<iframe id="dynamicEmbed" src="" scrolling="no" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; border: none; background-color: white; display: none"></iframe>
 
 
 </div>
@@ -142,7 +142,7 @@
 			<button onclick="rcalappear()" class="my-button">Schedule with Rachel Neumeier</button><br>
 		</div>  
 
-		<iframe id="testprepcalendar" scrolling="no" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0;
+		<iframe id="testprepcalendar" scrolling="no" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; border: none;
   background-color: white; display: none"></iframe>
 
 	</div>
@@ -162,7 +162,7 @@
 			<button onclick="dcalappear()" class="my-button">Schedule with Dane Korenak</button><br>
 		</div>
 
-		<iframe id="calendar" scrolling="no" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; frameborder: 0; background-color: white; display: none"></iframe>
+		<iframe id="calendar" scrolling="no" src="" style="margin-left: -7vw; border: 0; width: 100vw; height: 1600px; border: none; background-color: white; display: none"></iframe>
 
 	</div>
     </details>
