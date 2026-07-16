@@ -85,7 +85,7 @@ const subCategoryData = {
   document.getElementById("dynamicLink").href = "";
   document.getElementById("dynamicEmbed").style.display = "none";
   document.getElementById("dynamicLink").style.display = "none";
-  document.getElementById("prompt").style.visibility = "hidden";
+  document.getElementById("prompt").style.display = "none";
 
   //This displays the subject descriptions based on selection from struct above
   if (SubjectSelect.value == 'math'){
@@ -160,8 +160,7 @@ function updateLink(){
     dynamicEmbed.src = Erik.CalEmbed;
 	document.getElementById("dynamicEmbed").style.display = "initial";
     document.getElementById("aboutTutor").innerText = Erik.about;
-    document.getElementById("dynamicLink").style.display = "initial";
-	document.getElementById("prompt").style.visibility = "visible";
+	document.getElementById("prompt").style.display = "initial";
 
   }
   else if (TutorSelect.value == Margaret.name){
@@ -169,8 +168,7 @@ function updateLink(){
     dynamicEmbed.src = Margaret.CalEmbed;
 	document.getElementById("dynamicEmbed").style.display = "initial";
     document.getElementById("aboutTutor").innerText = Margaret.about;
-    document.getElementById("dynamicLink").style.display = "initial";
-	document.getElementById("prompt").style.visibility = "visible";
+	document.getElementById("prompt").style.display = "initial";
   }
   else if (TutorSelect.value == Rachel.name){
     if (SubjectSelect.value == "math"){
@@ -178,16 +176,14 @@ function updateLink(){
       dynamicEmbed.src = Rachel.CalEmbed;
       document.getElementById("dynamicEmbed").style.display = "initial";
       document.getElementById("aboutTutor").innerText = Rachel.aboutmath;
-      document.getElementById("dynamicLink").style.display = "initial";
-	document.getElementById("prompt").style.visibility = "visible";
+	document.getElementById("prompt").style.display = "initial";
     }
     else{
       dynamicLink.href = Rachel.CalLink;
       dynamicEmbed.src = Rachel.CalEmbed;
       document.getElementById("aboutTutor").innerText = Rachel.about;
       document.getElementById("dynamicEmbed").style.display = "initial";
-      document.getElementById("dynamicLink").style.display = "initial";
-	  document.getElementById("prompt").style.visibility = "visible";
+	  document.getElementById("prompt").style.display = "initial";
 
     }
   }
@@ -196,16 +192,14 @@ function updateLink(){
     dynamicEmbed.src = Dane.CalEmbed;
     document.getElementById("aboutTutor").innerText = Dane.about;
 	document.getElementById("dynamicEmbed").style.display = "initial";
-    document.getElementById("dynamicLink").style.display = "initial";
-	document.getElementById("prompt").style.visibility = "visible";
+	document.getElementById("prompt").style.display = "initial";
   }
   else if (TutorSelect.value == Michelle.name){
     dynamicLink.href = Michelle.CalLink;
     dynamicEmbed.src = Michelle.CalEmbed;
     document.getElementById("aboutTutor").innerText = Michelle.about;
 	document.getElementById("dynamicEmbed").style.display = "initial";
-    document.getElementById("dynamicLink").style.display = "initial";
-	document.getElementById("prompt").style.visibility = "visible";
+	document.getElementById("prompt").style.display = "initial";
   }
   else{
     dynamicLink.href = "";
@@ -213,7 +207,7 @@ function updateLink(){
     document.getElementById("aboutTutor").innerText = "";
     document.getElementById("dynamicEmbed").src = "";
 	document.getElementById("dynamicEmbed").style.display = "none";
-	document.getElementById("prompt").style.visibility = "hidden";
+	document.getElementById("prompt").style.display = "none";
     document.getElementById("dynamicLink").style.display = "none";
   }
 }
