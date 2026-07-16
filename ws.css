@@ -32,9 +32,9 @@ summary {
   width: 89vw;
   margin-bottom: 0vw;
   margin-top: 15px;
+  margin-left: auto;
   background: --most-color;
   box-shadow: 2px 2px 2px gray;
-  position: relative;
   cursor: pointer;
   &:focus {
     border-color: black;
@@ -150,7 +150,5 @@ details[open] > *:not(summary) {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
-
 
 </style>
