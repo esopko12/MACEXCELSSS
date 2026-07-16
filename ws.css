@@ -11,8 +11,6 @@
   --maxwidth: 100vw;
 }
 
-<style>
-
 a{
 	transition: .1s;
 	color: blue;
@@ -147,5 +145,3 @@ details[open] > *:not(summary) {
     from { opacity: 0; }
     to { opacity: 1; }
 }
-
-</style>
