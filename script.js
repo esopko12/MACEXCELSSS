@@ -223,6 +223,20 @@ detailsElements.forEach((detail) => {
         // Close all others
         if (otherDetail !== this) {
           otherDetail.open = false;
+          // close all calendars
+          dynamicLink.href = "";
+          dynamicEmbed.src = "";
+          document.getElementById("subject").selectedIndex = 0;
+		  document.getElementById("tutor").selectedIndex = 0;
+          document.getElementById("prompt").style.display = "none";
+          document.getElementById("aboutSubject").innerText = "";
+          document.getElementById("aboutTutor").innerText = "";
+          document.getElementById("dynamicEmbed").src = "";
+          document.getElementById("dynamicEmbed").style.display = "none";
+          document.getElementById("dynamicLink").style.display = "none";
+          document.getElementById("testprepcalendar").style.display = "none";
+          document.getElementById("calendar").style.display = "none";
+          document.getElementById("appcalendar").style.display = "none";
         }
 
       });
