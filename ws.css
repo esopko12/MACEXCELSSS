@@ -96,7 +96,7 @@ select {
 }
 
 .mySlides {
-  height: clamp(125px, 35vw, 260px);
+  height: clamp(125px, 35vw, 300px);
   margin-left: auto;
   margin-right: auto;
 }
