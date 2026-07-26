@@ -30,7 +30,7 @@ summary {
   width: 89vw;
   margin-bottom: 0vw;
   margin-top: 15px;
-  background: --most-color;
+  background: var(--most-color);
   box-shadow: 2px 2px 2px gray;
   cursor: pointer;
   &:focus {
